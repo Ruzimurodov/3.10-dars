@@ -14,9 +14,11 @@ elForm.addEventListener("submit", function(evt){
     if(elInputVal % 2 == 0){
         juft.unshift(elInputVal);
         elResult.textContent = "Juft";
+        console.log(juft + " soni juft");
     }else{
         toq.unshift(elInputVal)
         elResult.textContent = "Toq";
+        console.log(toq + " soni toq");
     }
     
     elInput.value = ""
